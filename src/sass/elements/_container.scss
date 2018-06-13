@@ -1,0 +1,12 @@
+#container {
+    width: 90vw;
+    margin: 0 auto;
+
+    .visited, .suggestions {
+        h3 {
+            &:first-of-type {
+                margin-left: 2rem;
+            }
+        }
+    }
+}
